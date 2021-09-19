@@ -941,7 +941,7 @@ q {
   font-family: sans-serif;
 }
 /*map*/
-.location {
+/* .location {
   border-top: 1px solid #90e0ef;
   float: left;
   text-align: center;
@@ -954,7 +954,7 @@ q {
 .map {
   padding: 20px 20px 20px 20px;
   
-}
+} */
 /*footer*/
 body {
   font-family: poppins;
