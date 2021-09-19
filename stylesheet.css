@@ -940,6 +940,22 @@ q {
   width: 215px;
   font-family: sans-serif;
 }
+/*map*/
+.location {
+  border-top: 1px solid #90e0ef;
+  float: left;
+  text-align: center;
+  color:#03045e ;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+ 
+}
+
+.map {
+  padding: 20px 20px 20px 20px;
+  
+}
+/*footer*/
 body {
   font-family: poppins;
   margin: 0;
