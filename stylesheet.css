@@ -391,6 +391,18 @@ video {
 
 /*services*/
 /* Main heading for card's front cover */
+.card-main{
+  height: 700px;
+  margin-top: 105px;
+  margin-bottom: -105;
+  margin-bottom: -105;
+  padding-bottom: -105;
+}
+.card-area{
+  height: 728px;
+  margin-top: 750px;
+  padding-top: 250px
+}
 .card-front__heading {
   font-size: 1.5rem;
   margin-top: 0.25rem;
@@ -896,6 +908,13 @@ q {
   color: cornflowerblue;
 }
 /*meet*/
+.ecosystem{
+    font-size: 20px;
+    width: 1295px;
+    padding-left: 370px;
+    height: 70px;
+    padding-top: 10px;
+}
 .meet-title {
   text-align: center;
   font-size: 40px;
