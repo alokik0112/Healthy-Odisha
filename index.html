@@ -1,124 +1,437 @@
-<html>
-    <head>
-    
-        <link rel="stylesheet" href="stylesheet.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body> 
-        <script src="script.js"></script>
-        <div class="about">
-            <div class="coulum left">
-                <img src="https://wallpapercave.com/wp/wp2968489.jpg">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <div class="menu-icon">
+            <span class="fas fa-bars"></span>
+        </div>
+        <div class="logo">
+            HealthCare
+        </div>
+        <div class="nav-items container topBotomBordersOut">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn">Services
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+            </li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Location</a></li>
+        </div>
+        <div class="search-icon">
+            <span class="fas fa-search"></span>
+        </div>
+        <div class="cancel-icon">
+            <span class="fas fa-times"></span>
+        </div>
+        <form action="#">
+            <input type="search" class="search-data" placeholder="Search" required>
+            <button type="submit" class="fas fa-search"></button>
+        </form>
+    </nav>
+    </div>
+    <section class="main">
+        <div class="video">
+            <video playsinline autoplay muted loop poster="polina.jpg" id="bgvid">
+                <!-- <source src="D:\Visual studio\healthcare.webm" type="video/webm"> -->
+                <source src="D:\Visual studio\HackOdisha\healthcare.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+
+    <div class="about">
+        <div class="coulumn left">
+            <img src="https://wallpapercave.com/wp/wp2968489.jpg">
+        </div>
+        <div class="column right">
+            <h2 class="about-heading">
+                Exceptional Health Care With a Personal Mission
+            </h2>
+            <p class="abouttext">
+                The COVID 19 outbreak has placed unprecedented demands on our health system. Our health
+                facilities and workforce are currently inundated by a plethora of activities related to
+                controlling the pandemic. In doing so, there is a risk that essential health services which
+                communities expect from the health system, would be compromised. It is likely that health
+                seeking may be deferred because of social/physical distancing requirements or community
+                reluctance owing to perceptions that health facilities may be infected. Focusing on COVID
+                19 related activities, and continuing to provide essential services, is important not only to
+                maintain people’s trust in the health system to deliver essential health services
+                , but also to minimize an increase in morbidity and mortality from other health conditions.
+            </p>
+        </div>
+    </div>
+    <main class="card-main">
+        <h1>Services</h1>
+        <section class="card-area">
+
+            <!-- Card: City -->
+            <section class="card-section">
+                <div class="card">
+                    <div class="flip-card">
+                        <div class="flip-card__container">
+                            <div class="card-front">
+                                <div class="card-front__tp card-front__tp--city">
+
+                                    <h2 class="card-front__heading">
+                                        Neuro
+                                    </h2>
+                                    <!-- <p class="card-front__text-price">
+                                        From £29
+                                    </p> -->
+                                </div>
+
+                                <div class="card-front__bt">
+                                    <p class="card-front__text-view card-front__text-view--city">
+                                        View me
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-back">
+                                <video class="video__container" autoplay muted loop>
+                                    <source class="video__media"
+                                        src="https://player.vimeo.com/external/370331493.sd.mp4?s=e90dcaba73c19e0e36f03406b47bbd6992dd6c1c&profile_id=139&oauth2_token_id=57447761"
+                                        type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="inside-page">
+                        <div class="inside-page__container">
+                            <h3 class="inside-page__heading inside-page__heading--city">
+                                lorem
+                            </h3>
+                            <p class="inside-page__text">
+                                lorem ipsum
+                            </p>
+                            <a href="#" class="inside-page__btn inside-page__btn--city">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Card: Ski -->
+            <section class="card-section">
+                <div class="card">
+                    <div class="flip-card">
+                        <div class="flip-card__container">
+                            <div class="card-front">
+                                <div class="card-front__tp card-front__tp--ski">
+                                    <h2 class="card-front__heading">
+                                        Heart
+                                    </h2>
+                                    <!-- <p class="card-front__text-price">
+                                        From £199
+                                    </p> -->
+                                </div>
+
+                                <div class="card-front__bt">
+                                    <p class="card-front__text-view card-front__text-view--ski">
+                                        View me
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="card-back">
+                                <video class="video__container" autoplay muted loop>
+                                    <source class="video__media"
+                                        src="https://player.vimeo.com/external/195913085.sd.mp4?s=7c12f7a83de62a8900fd2ae049297070b9bc8a54&profile_id=164&oauth2_token_id=574477611"
+                                        type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="inside-page">
+                        <div class="inside-page__container">
+                            <h3 class="inside-page__heading inside-page__heading--ski">
+                                lorem
+                            </h3>
+                            <p class="inside-page__text">
+                                lorem ipsum
+                            </p>
+                            <a href="#" class="inside-page__btn inside-page__btn--ski">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Card: Beach -->
+            <section class="card-section">
+                <div class="card">
+                    <div class="flip-card">
+                        <div class="flip-card__container">
+                            <div class="card-front">
+                                <div class="card-front__tp card-front__tp--beach">
+
+                                    <h2 class="card-front__heading">
+                                        Ortho
+                                    </h2>
+                                    <!-- <p class="card-front__text-price">
+                                        From £229
+                                    </p> -->
+                                </div>
+
+                                <div class="card-front__bt">
+                                    <p class="card-front__text-view card-front__text-view--beach">
+                                        View me
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-back">
+                                <video class="video__container" autoplay muted loop>
+                                    <source class="video__media"
+                                        src="https://player.vimeo.com/external/332588783.sd.mp4?s=cab1817146dd72daa6346a1583cc1ec4d9e677c7&profile_id=139&oauth2_token_id=57447761"
+                                        type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="inside-page">
+                        <div class="inside-page__container">
+                            <h3 class="inside-page__heading inside-page__heading--beach">
+                                lorem
+                            </h3>
+                            <p class="inside-page__text">
+                                lorem ipsum
+                            </p>
+                            <a href="#" class="inside-page__btn inside-page__btn--beach">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Card: Camping -->
+            <section class="card-section">
+                <div class="card">
+                    <div class="flip-card">
+                        <div class="flip-card__container">
+                            <div class="card-front">
+                                <div class="card-front__tp card-front__tp--camping">
+                                    <h2 class="card-front__heading">
+                                        Cancer
+                                    </h2>
+                                    <!-- <p class="card-front__text-price">
+                                        From £129
+                                    </p> -->
+                                </div>
+
+                                <div class="card-front__bt">
+                                    <p class="card-front__text-view card-front__text-view--camping">
+                                        View me
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-back">
+                                <video class="video__container" autoplay muted loop>
+                                    <source class="video__media"
+                                        src="https://player.vimeo.com/external/180185916.sd.mp4?s=c893e4770f87b00e0d6b5a1de138b01b02aaa085&profile_id=164&oauth2_token_id=57447761"
+                                        type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="inside-page">
+                        <div class="inside-page__container">
+                            <h3 class="inside-page__heading inside-page__heading--camping">
+                                lorem
+                            </h3>
+                            <p class="inside-page__text">
+                                lorem ipsum
+                            </p>
+                            <a href="#" class="inside-page__btn inside-page__btn--camping">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="hero-section">
+            <div class="filtercard-grid">
+                <a class="filtercard" href="#">
+                    <div class="filtercard__background"
+                        style="background-image: url(https://images.unsplash.com/photo-1557177324-56c542165309?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)">
+                    </div>
+                    <div class="filtercard__content">
+                        <p class="filtercard__category">Category</p>
+                        <h3 class="filtercard__heading"> Card Heading</h3>
+                    </div>
+                </a>
+                <a class="filtercard" href="#">
+                    <div class="filtercard__background"
+                        style="background-image: url(https://images.unsplash.com/photo-1557187666-4fd70cf76254?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)">
+                    </div>
+                    <div class="filtercard__content">
+                        <p class="filtercard__category">Category</p>
+                        <h3 class="filtercard__heading"> Card Heading</h3>
+                    </div>
+                </a>
+                <a class="filtercard" href="#">
+                    <div class="filtercard__background"
+                        style="background-image: url(https://images.unsplash.com/photo-1556680262-9990363a3e6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)">
+                    </div>
+                    <div class="filtercard__content">
+                        <p class="filtercard__category">Category</p>
+                        <h3 class="filtercard__heading"> Card Heading</h3>
+                    </div>
+                    </li>
+                    <a class="filtercard" href="#">
+                        <div class="filtercard__background"
+                            style="background-image: url(https://images.unsplash.com/photo-1557004396-66e4174d7bf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)">
+                        </div>
+                        <div class="filtercard__content">
+                            <p class="filtercard__category">Category</p>
+                            <h3 class="filtercard__heading"> Card Heading</h3>
+                        </div>
+                    </a>
+                    <div>
+        </section>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width slides/quotes -->
+            <div class="mySlides">
+                <q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
+                <p class="author">- John Keats</p>
             </div>
-            <div class="column right">
-                <h2 class="about-heading">
-                    Exceptional Health Care With a Personal Mission
-                </h2>
-                <p class="abouttext">
-                  The COVID 19 outbreak has placed unprecedented demands on our health system. Our health
-                  facilities and workforce are currently inundated by a plethora of activities related to
-                  controlling the pandemic. In doing so, there is a risk that essential health services which
-                  communities expect from the health system, would be compromised. It is likely that health
-                  seeking may be deferred because of social/physical distancing requirements or community
-                  reluctance owing to perceptions that health facilities may be infected. Focusing on COVID
-                  19 related activities, and continuing to provide essential services, is important not only to
-                  maintain people’s trust in the health system to deliver essential health services
-                  , but also to minimize an increase in morbidity and mortality from other health conditions.
-                </p>
+
+            <div class="mySlides">
+                <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
+                <p class="author">- Ernest Hemingway</p>
             </div>
+
+            <div class="mySlides">
+                <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+                <p class="author">- Thomas A. Edison</p>
+            </div>
+
+            <!-- Next/prev buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
 
-       
+        <!-- Dots/bullets/indicators -->
+        <div class="dot-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
         <div class="ecosystem">
-          <h2 class="meet-title">The Quality of Healthcare</h2>
-          <p style="
-          font-size: 20px;
-          width: 800px;
-          padding-left: 370px;
-          height: 70px;"">
-            The healthcare system in Odisha is in transition. The state is investing in health technology to promote scientific, evidence based decision making that promotes efficiency.
-          </p>
-          <div class="icons">
+            <h2 class="meet-title">The Quality of Healthcare</h2>
+            <p style="
+    font-size: 20px;
+    width: 800px;
+    padding-left: 370px;
+    height: 70px;"">
+      The healthcare system in Odisha is in transition. The state is investing in health technology to promote scientific, evidence based decision making that promotes efficiency.
+    </p>
+    <div class=" icons">
             <ul>
-<li><a class="fa fa-user-md fa-4x"></a>
-<p>
-  27,000+</p>
-<p>1 doctor per 2,187 persons
-</p>
-</li>
-<li>
-  <a class="fa fa-map-marker fa-4x"></a>
-  <p>
-    7000+
-  </p>
-  <p>
-    Physician Practices and Clinics</p>
-    <li>
-      <a class="fa fa-hospital-o fa-4x"></a>
-      <p style="padding-left: 10px;">
-        6700+
-      </p>
-      <p>
-Hospitals Across Odisha
-     </p>
-        <li>
-          <a class="fa Example of heart fa-heart fa-4x"></a>
-          <p style="padding-left:26px">
-            1
-          </p>
-          <p>
-            Mission
-           </p>
+                <li><a class="fa fa-user-md fa-4x"></a>
+                    <p>
+                        27,000+</p>
+                    <p>1 doctor per 2,187 persons
+                    </p>
+                </li>
+                <li>
+                    <a class="fa fa-map-marker fa-4x"></a>
+                    <p>
+                        7000+
+                    </p>
+                    <p>
+                        Physician Practices and Clinics</p>
+                <li>
+                    <a class="fa fa-hospital-o fa-4x"></a>
+                    <p style="padding-left: 10px;">
+                        6700+
+                    </p>
+                    <p>
+                        Hospitals Across Odisha
+                    </p>
+                <li>
+                    <a class="fa Example of heart fa-heart fa-4x"></a>
+                    <p style="padding-left:26px">
+                        1
+                    </p>
+                    <p>
+                        Mission
+                    </p>
             </ul>
 
-          </div>
+        </div>
         </div>
         <div class="footer">
-          <footer class="footer">
-            <div class="l-footer">
-            <h1>
-            <img src="https://i.postimg.cc/y62wcLBq/logo.png" alt=""></h1>
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam atque recusandae in sit sunt molestiae aliquid fugit. Mollitia eaque tempore iure sit nobis? Vitae nemo, optio maiores numquam quis recusandae.</p>
-            </div>
-            <ul class="r-footer">
-            <li>
-              <h2>
-            Social</h2>
-            <ul class="box">
-            <li><a href="https://www.facebook.com/">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Instagram</a></li>
-            
-            </ul>
-            </li>
-            <li class="features">
-              <h2>
-            Services</h2>
-            <ul class="box h-box">
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Sales</a></li>
-            <li><a href="#">Tickets</a></li>
-            <li><a href="#">Certifications</a></li>
-            <li><a href="#">Customer Service</a></li>
-            </ul>
-            </li>
-            <li>
-              <h2>
-            Legal</h2>
-            <ul class="box">
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms of Use</a></li>
-         
-            </ul>
-            </li>
-            </ul>
-            <div class="b-footer">
-            <p>
-            All rights reserved by ©CompanyName 2021 </p>
-            </div>
+            <footer class="footer">
+                <div class="l-footer">
+                    <h1>
+                        <img src="https://i.postimg.cc/y62wcLBq/logo.png" alt="">
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam atque recusandae in sit
+                        sunt molestiae aliquid fugit. Mollitia eaque tempore iure sit nobis? Vitae nemo, optio maiores
+                        numquam quis recusandae.</p>
+                </div>
+                <ul class="r-footer">
+                    <li>
+                        <h2>
+                            Social</h2>
+                        <ul class="box">
+                            <li><a href="https://www.facebook.com/">Facebook</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Instagram</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="features">
+                        <h2>
+                            Services</h2>
+                        <ul class="box h-box">
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Sales</a></li>
+                            <li><a href="#">Tickets</a></li>
+                            <li><a href="#">Certifications</a></li>
+                            <li><a href="#">Customer Service</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2>
+                            Legal</h2>
+                        <ul class="box">
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+                <div class="b-footer">
+                    <p>
+                        All rights reserved by ©CompanyName 2021 </p>
+                </div>
             </footer>
         </div>
-    </body>
+        <script src="script.js"></script>
+
+</body>
+
 </html>
